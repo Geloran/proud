@@ -17,7 +17,7 @@ if q == '1':
     print(l_m[0])
 
 if q == '2':
-    print(l_m[1])
+    print(l_m[1], 'является високосным')
 
 if q == '3':
     print(l_m[2])
