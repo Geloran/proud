@@ -1,0 +1,22 @@
+import random
+my_favorite_songs = [
+    ['Waste a Moment', 3.03],
+    ['New Salvation', 4.02],
+    ['Staying\' Alive', 3.40],
+    ['Out of Touch', 3.03],
+    ['A Sorta Fairytale', 5.28],
+    ['Easy', 4.15],
+    ['Beautiful Day', 4.04],
+    ['Nowhere to Run', 2.58],
+    ['In This World', 4.02],
+]
+
+def random_songs(my_favorite_songs):
+  l = random.sample(my_favorite_songs, 3)
+  summ = 0
+  for i in l:
+    summ += i[1]
+print('Три песни звучат', summ, 'минут')
+print(l)
+
+
