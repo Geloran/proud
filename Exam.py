@@ -56,5 +56,5 @@ def analyse(valu):
   
 #Выведем финальный результат
 for valu in info.index:
-  trader(valu)
+  analyse(valu)
 print(info)
